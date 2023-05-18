@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family= Press+Start+2P & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+80s+Fade&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #332E30;
+}
+.box{
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 0px black; 
+    justify-content: space-around;   
+}
+.img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px 20px 0px 0px;
+}
+.titulo{
+   margin: 28px;
+   font-family: 'Press Start 2P', cursive;
+   font-weight: bold;
+}
+.texto{
+    font-family: 'Press Start 2P', cursive;
+}
+.butt button{
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    background-color: white;
+    border: 5px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}

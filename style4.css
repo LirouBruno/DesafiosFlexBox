@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+80s+Fade&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    background-color: black;
+}
+.menu-imagem img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.menu-list ul{
+    list-style: none;
+    display: flex;
+}
+.menu-list li{
+    margin-left: 32px;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+.menu-rede img{
+    margin-right: 10px;
+    background-color: white;
+}
